@@ -1,0 +1,82 @@
+#team 
+    {
+    h3 {
+        font-family: Omnes;
+        font-size: 42px;
+        padding-top: 50px;
+        color: #F0143E;
+        text-align: center; 
+    }
+
+    div {
+        height: 100vh;
+        width: 80%;
+        background: none;
+        margin: 0 auto;
+
+        .team_picto{
+            position: absolute;
+            left: 540px;
+            top: 1200px;
+        }
+         
+    }
+
+    img{
+        margin: 0 auto;
+        width: 230px;
+    }
+
+    article {
+        width: 50%;
+        height: 50vh;
+        background: none;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+   
+
+    h4 {
+        font-family: Omnes;
+        font-size: 40px;
+        font-weight: bold; 
+        color: #F0143E;
+        ;
+    }
+
+    h5 {
+        font-family: Hoss Round;
+        font-size: 20px;
+        font-weight: normal;
+        color: $bluevert; 
+    }
+
+    p {
+        font-family: Hoss Round;
+        font-size: 20px;
+        font-weight: normal;
+        width: 70%;
+        color: #464646; 
+    }
+
+    .image_adrien_thomas {
+        position: relative;
+        top: 100px;
+        right: 150px; 
+    }
+
+    .image_alexis_ludovic{
+        position: relative;
+        top: 50px;
+        left: 150px; 
+    }
+}
+
+#footerteam{
+    margin-top: 34vh;
+    background: $bluevert;
+  }

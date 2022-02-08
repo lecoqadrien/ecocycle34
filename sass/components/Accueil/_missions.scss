@@ -1,0 +1,56 @@
+#missions{
+    #trait_missions{
+        max-width: 40%;
+    }
+
+    h4 {
+        font-family: Omnes;
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 40px; 
+    }
+
+    #mission {
+        width: 100%;
+        display: flex;
+        justify-content: space-around; 
+    }
+
+    article {
+        border-radius: 20px;
+        width: 430px;
+        height: 225px;
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        background: white;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        box-shadow: 2px 5px 5px gray;
+        float: left; 
+        margin: 10px;
+
+        h5 {
+            text-decoration: none;
+            font-family: Omnes;
+            font-weight: bold;
+            font-size: 25px;
+            color: #F0143E;
+            text-decoration: none; 
+        }
+
+        p {
+            text-decoration: none;
+            font-family: Hoss Round;
+            font-size: 16px;
+            font-weight: bold;
+            color: #464646;
+            text-align: left;
+            text-decoration: none;
+            width: 80%; 
+        }
+    }
+
+}

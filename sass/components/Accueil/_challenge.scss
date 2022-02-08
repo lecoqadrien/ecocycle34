@@ -1,0 +1,115 @@
+#challenge{
+    #trait_challenge{
+        margin-left: 60px;
+    }
+
+    h4 {
+        font-family: Omnes;
+        font-size: 42px;
+        padding-top: 50px;
+        padding-left: 50px;
+        color: #F0143E;
+        text-align: left; 
+    }
+
+    #challenge1 {
+        width: 90%;
+        background: none;
+        margin: 0 auto; 
+
+        img {
+            float: left;
+            width: 70%; 
+        }
+        
+        p {
+            float: left;
+            font-family: Hoss Round;
+            font-size: 16px;
+            font-weight: lighter;
+            width: 90%; 
+        }
+
+        article:nth-child(1) {
+            width: 50%;
+            height: 200px;
+            background: none;
+            float: left; 
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+
+        article:nth-child(2) {
+            width: 50%;
+            height: 200px;
+            background: none;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+    }
+
+    #challenge2 {
+        width: 90%;
+        height: 50%;
+        background: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+
+        article:nth-child(1) {
+            width: 50%;
+            height: 200px;
+            background: none;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+
+            img {
+                float: left;
+                width: 90%; 
+            }
+            
+            p {
+                float: left;
+                font-family: Hoss Round;
+                font-size: 17px;
+                font-weight: lighter;
+                width: 80%; 
+            }
+        }
+        
+        article:nth-child(2) {
+            width: 50%;
+            height: 200px;
+            background: none;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+
+            img {
+                float: left;
+                width: 70%; 
+            }
+            
+            p {
+                float: left;
+                font-family: Hoss Round;
+                font-size: 17px;
+                font-weight: lighter;
+                width: 80%; 
+            }
+        }
+    }
+
+    
+
+    
+
+    
+}

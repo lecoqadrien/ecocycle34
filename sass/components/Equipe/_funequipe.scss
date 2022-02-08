@@ -1,0 +1,32 @@
+#funequipe {
+    article:nth-child(1) {
+        width: 50%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        background: none;
+        margin-top: 50px; 
+    }
+
+    article:nth-child(2) {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        margin-right: 100px;
+        
+        h2 {
+            font-family: Hoss Round;
+            font-size: 30px;
+            color: #FFFFFF; 
+        }
+    
+        p {
+            font-family: Hoss Round;
+            font-size: 20px;
+            color: #FFFFFF; 
+        }
+    }
+}

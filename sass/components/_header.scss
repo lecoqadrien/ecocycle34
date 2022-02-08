@@ -1,0 +1,99 @@
+
+
+header img {
+    margin-top: 20px;
+    margin-left: 123px; 
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background: #5ABCA9;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    ul {
+        width: 50%;
+        background:none;
+        display: flex;
+        list-style: none;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        img {
+            float: left; 
+        }
+
+        li {
+            text-decoration: none;
+            display: inline-block;
+            font-family: Hoss Round;
+            font-weight: bold;
+            font-size: 20px; 
+
+            a {
+                display: inline-block;
+                padding: 30px;
+                text-decoration: none; 
+                color: #FFFFFF; 
+            }
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            background: #F0143E;
+            border: none;
+            border-radius: 10px; 
+            font-family: Hoss Round;
+            font-weight: medium;
+            font-size: 20px;
+            color: #FFFFFF;
+            cursor:pointer;
+
+            &:hover{
+                background: #FFFFFF;
+                color: #F0143E;
+                cursor:pointer;
+            }
+        }
+
+        
+    }
+
+    &.openMenu {
+        font-size: 2rem;
+        margin: 20px;
+        display: none;
+        cursor: pointer;
+        display: block;
+        margin-top: 30px;
+    }
+
+    &.closeMenu{
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+
+    .logo {
+        margin: 6px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    
+
+
+}
+
+div {
+    
+    
+    display: block;
+    margin-top: 30px;
+}

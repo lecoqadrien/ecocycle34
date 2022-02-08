@@ -1,0 +1,261 @@
+#fonctionnement{
+    #trait_fonctionnement{
+        max-width: 60%;
+    }
+
+    .f1, #f2, .f3{
+        width: 100%;
+        background-color: none;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #choice_text{
+        width: 60%;
+        background-color: none;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        h4{
+            font-family: Omnes;
+            font-size: 40px;
+            font-weight: bold;
+            color: #F0143E;
+            float: left;
+        }
+
+        img{
+            float: left;
+        }
+    }
+
+
+    .f1{
+
+       #choice_text{
+
+            div{
+            
+                width: 100%;
+                height: 30vh;
+                background: none;
+                display: flex;
+                justify-content: flex-start;
+                
+
+                img{
+                    margin-left: 30px;
+                }
+
+                aside{
+                    width: 100%;
+                    background: none;
+                    margin-left:40px ;
+
+                    #text1{
+                        font-family: Hoss Round;
+                        font-size: 25px;
+                        font-weight: lighter;
+                        color: $bluevert;
+                        background: none;
+                        margin-left:40px ;
+                        margin-top: 30px;
+                    }
+
+                    #text2{
+                        font-family: Hoss Round;
+                        font-size: 16px;
+                        font-weight: lighter;
+                        color: #464646;
+                        background: none;
+                        margin-left:40px ;
+                        width: 100%;
+                        line-height: 30px;
+                    }
+                }
+            }
+        
+            h1{
+                font-family: Hoss Round;
+                font-size: 181px;
+                font-weight: medium;
+                margin-left: 30px;
+                color: $bluevert;  
+            }
+        }
+
+        #choice_picture{
+            width: 50%;
+            height: 60vh;
+            background-color: none;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+
+            img{
+                max-width: 70%;
+                margin: 0 auto;
+               
+            }
+        }
+
+    }
+
+
+
+    //Fonctionnement 2
+
+    #f2{
+        #choice_text{
+            h1{
+                font-family: Hoss Round;
+                font-size: 181px;
+                font-weight: medium;
+                margin-left: 30px;
+                color: $bluevert;  
+            }
+            
+            div{
+          
+                width: 100%;
+                height: 100%;
+                background: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                     margin-left: 30px;
+                }
+
+                aside{
+                    width: 100%;
+                    background: none;
+                    margin-left:40px ;
+
+                    #text1{
+                        font-family: Hoss Round;
+                        font-size: 25px;
+                        font-weight: lighter;
+                        color: $bluevert;
+                        background: none;
+                        margin-left:40px ;
+                        margin-top: 30px;
+                    }
+
+                    #text2{
+                        font-family: Hoss Round;
+                        font-size: 16px;
+                        font-weight: lighter;
+                        color: #464646;
+                        background: none;
+                        margin-left:40px ;
+                        width: 100%;
+                        line-height: 30px;
+                        
+                    }
+                }
+                
+            }
+        }
+
+        #choice_picture{
+            width: 30%;
+            height: 60vh;
+            background-color: none;
+            float: left;
+            display: flex;
+            align-items: center;
+
+            img{
+                max-width: 100%;
+                margin: 0 auto;
+               
+            }
+        }
+    }
+
+
+    //Fonctionnement 3
+
+    .f3{
+
+        #choice_text{
+
+            img{ 
+                float: left;
+            }
+
+            h1{
+                font-family: Hoss Round;
+                font-size: 181px;
+                font-weight: medium;
+                margin-left: 30px;
+                color: $bluevert;  
+            }
+
+            div{
+                width: 100%;
+                height: 100%;
+                background: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    margin-left: 30px;
+                }
+
+                aside{
+                    width: 100%;
+                    background: none;
+                    margin-left:40px ;
+
+                    #text1{
+                        font-family: Hoss Round;
+                        font-size: 25px;
+                        font-weight: lighter;
+                        color: $bluevert;
+                        background: none;
+                        margin-left:40px ;
+                        margin-top: 30px;
+                    }
+
+                    #text2{
+                        font-family: Hoss Round;
+                        font-size: 16px;
+                        font-weight: lighter;
+                        color: #464646;
+                        background: none;
+                        margin-left:40px ;
+                        width: 100%;
+                        line-height: 30px;
+                        
+                    }
+                }
+            }
+        }
+
+        #choice_picture{
+            width: 50%;
+            height: 60vh;
+            background-color: none;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+
+            img{
+                max-width: 70%;
+                margin: 0 auto;
+               
+            }
+        }
+    }
+
+
+}
